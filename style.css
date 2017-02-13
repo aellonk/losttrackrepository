@@ -167,8 +167,13 @@ div.rectangle h5 {
 	padding-left: .4em;
 }
 
-a {
+a:link {
 	color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .more-info {
